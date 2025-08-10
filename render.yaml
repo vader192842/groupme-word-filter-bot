@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: groupme-word-filter-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python flask_app.py"
+    plan: free
