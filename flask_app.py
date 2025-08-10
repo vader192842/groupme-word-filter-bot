@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-BOT_ID = 'your_bot_id_here'  # Replace with your actual GroupMe bot ID
+BOT_ID = 'd88d35ea841645b51035c369d1'  # Replace with your actual GroupMe bot ID
 GROUPME_POST_URL = 'https://api.groupme.com/v3/bots/post'
 
 BANNED_WORDS = [
